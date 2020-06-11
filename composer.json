@@ -1,0 +1,20 @@
+{
+    "name": "johnnymast/asciiart",
+    "description": "Create ascii art from your image files",
+    "require": {
+        "league/climate": "^3.5",
+      "ext-gd": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnny Mast",
+            "email": "mastjohnny@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JM\\ASCII\\": "src/"
+        }
+    }
+}
